@@ -35,7 +35,10 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-RX-npl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="77.666666666666686" y="0.0" width="220" height="812"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Ee9-bJ-zD7"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -44,13 +47,12 @@
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4bc-2d-6Yz"/>
                             <constraint firstItem="qJn-hu-Qx4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Eh2-g1-FeY"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EhX-H6-oGX"/>
-                            <constraint firstItem="sTr-RX-npl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ppz-EX-GcI"/>
                             <constraint firstItem="Mut-Gi-GjG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VCb-Bv-0Se"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="WGq-s8-lNM"/>
                             <constraint firstItem="Mut-Gi-GjG" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="cl2-KD-5ju"/>
-                            <constraint firstItem="sTr-RX-npl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mN1-uc-4sb"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sOn-YD-yHo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJn-hu-Qx4" secondAttribute="trailing" constant="16" id="sQL-ov-mDu"/>
+                            <constraint firstItem="sTr-RX-npl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="si4-hk-2w5"/>
                             <constraint firstItem="sTr-RX-npl" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="xCr-de-YV9"/>
                             <constraint firstItem="Mut-Gi-GjG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yE8-6s-mHB"/>
                         </constraints>
