@@ -35,12 +35,12 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-RX-npl">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sTr-RX-npl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1fC-B1-tAw"/>
+                            <constraint firstItem="sTr-RX-npl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1fC-B1-tAw"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4bc-2d-6Yz"/>
                             <constraint firstItem="qJn-hu-Qx4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Eh2-g1-FeY"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EhX-H6-oGX"/>
@@ -51,11 +51,14 @@
                             <constraint firstItem="sTr-RX-npl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mN1-uc-4sb"/>
                             <constraint firstItem="OeX-Eo-esE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sOn-YD-yHo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJn-hu-Qx4" secondAttribute="trailing" constant="16" id="sQL-ov-mDu"/>
-                            <constraint firstItem="sTr-RX-npl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xCr-de-YV9"/>
+                            <constraint firstItem="sTr-RX-npl" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="xCr-de-YV9"/>
                             <constraint firstItem="Mut-Gi-GjG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yE8-6s-mHB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="sTr-RX-npl" id="KFB-dW-FzJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
